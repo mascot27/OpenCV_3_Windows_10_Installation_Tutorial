@@ -1,0 +1,50 @@
+opencv_objdetect320d.lib
+opencv_ml320d.lib
+opencv_imgproc320d.lib
+opencv_imgcodecs320d.lib
+opencv_highgui320d.lib
+opencv_flann320d.lib
+opencv_features2d320d.lib
+opencv_core320d.lib
+opencv_calib3d320d.lib
+opencv_videostab320d.lib
+opencv_videoio320d.lib
+opencv_video320d.lib
+opencv_ts320d.lib
+opencv_superres320d.lib
+opencv_stitching320d.lib
+opencv_shape320d.lib
+opencv_photo320d.lib
+
+
+
+
+
+
+
+
+INCLUDEPATH += C:\\OpenCV-3.2.0\\opencv\\build\\include
+
+LIBS += -LC:\\OpenCV-3.2.0\\mybuild\\lib\\Debug \
+    -lopencv_objdetect320d \
+    -lopencv_ml320d \
+    -lopencv_imgproc320d \
+    -lopencv_imgcodecs320d \
+    -lopencv_highgui320d \
+    -lopencv_flann320d \
+    -lopencv_features2d320d \
+    -lopencv_core320d \
+    -lopencv_calib3d320d \
+    -lopencv_videostab320d \
+    -lopencv_videoio320d \
+    -lopencv_video320d \
+    -lopencv_ts320d \
+    -lopencv_superres320d \
+    -lopencv_stitching320d \
+    -lopencv_shape320d \
+    -lopencv_photo320d
+
+
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
