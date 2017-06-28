@@ -17,3 +17,7 @@ Part 3 video: https://www.youtube.com/watch?v=7iyfJ-YaKvw
 Part 4 video: http://youtu.be/akAAAvGyLn0
 
 Enjoy !!
+
+
+Codec list with ObjectType:
+http://www.mp4ra.org/codecs.html
